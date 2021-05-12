@@ -1,0 +1,59 @@
+html {
+  font-size: 100%;
+}
+
+.input-row {
+  padding: 1rem;
+}
+
+.root {
+  flex-grow: 1;
+}
+
+.menuButton {
+  margin-right: 2rem;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex: 1;
+  margin: 2rem 7rem;
+  flex-direction: column;
+}
+
+.card_detail {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.media {
+  height: 140px;
+}
+
+.list {
+  width: 100%;
+  max-width: '36ch';
+  background-color: rgb(248, 248, 248);
+}
+
+.user_name {
+  display: inline;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-align-center {
+  justify-content: center;
+  align-items: center;
+}
+.mt-2{
+  margin-top: 2rem !important;
+}
