@@ -110,9 +110,9 @@ export default function NewsCard(props) {
                         <ListItemText
                           primary={commentDetails?.by}
                           secondary={
-                            <React.Fragment>
-                              {commentDetails?.text}
-                            </React.Fragment>
+                            <div dangerouslySetInnerHTML={{__html: commentDetails?.text}}>
+                              
+                            </div>
                           }
                         />
                       </ListItem>
